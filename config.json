@@ -1,12 +1,10 @@
 {
   "student": {
-    "name": "Your Name",
+    "name": "Nachiket Roy",
     "bio": "Google Summer of Code Contributor",
-    "avatar": "https://github.com/yourusername.png",
-    "github": "https://github.com/yourusername",
-    "email": "your.email@example.com",
-    "blog": "https://yourblog.dev",
-    "linkedin": "https://linkedin.com/in/yourprofile"
+    "avatar": "https://github.com/Nachiket-Roy.png",
+    "github": "https://github.com/Nachiket-Roy",
+    "email": "nachiket.roy.2@example.com",
   },
   "project": {
     "title": "Your GSoC Project Title",
@@ -14,8 +12,13 @@
     "organization": "Your Organization",
     "timeline": "May 2024 - August 2024",
     "repositories": [
-      "https://github.com/YourOrg/Repository-1",
-      "https://github.com/YourOrg/Repository-2"
+      "https://github.com/OWASP-BLT/BLT",
+      "https://github.com/OWASP-BLT/BLT-Leaf",
+      "https://github.com/OWASP-BLT/BLT-MY-GSOC-TOOL",
+      "https://github.com/OWASP-BLT/BLT-Panini",
+      "https://github.com/OWASP-BLT/BLT-Lettuce",
+      "https://github.com/OWASP-BLT/BLT-Action",
+      "https://github.com/OWASP-BLT/BLT-OWASP-metadata"
     ]
   },
   "slack": {
