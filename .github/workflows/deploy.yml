@@ -1,4 +1,4 @@
-name: Update GSoC Dashboard & Deploy
+name: "Update GSoC Dashboard & Deploy"
 
 on:
   schedule:
