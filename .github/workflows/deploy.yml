@@ -1,65 +1,61 @@
-name: Update GSoC Dashboard
+name: Update GSoC Dashboard & Deploy
 
 on:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: "0 0 * * *"   # Daily run
   workflow_dispatch:
   push:
     branches:
       - main
     paths:
-      - 'config.json'
-      - 'data/**'
-      - 'scripts/**'
+      - "config.json"
+      - "scripts/**"
+      - "data/**"
 
 permissions:
   contents: write
   pages: write
   id-token: write
 
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
 jobs:
-  fetch-github-contributions:
+  update-and-deploy:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: "20"
 
       - name: Fetch GitHub contributions
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: node scripts/fetch-github-data.js
 
-      - name: Commit updated data
+      - name: Commit updated JSON
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add -A
+          git add data/github-contributions.json
           git commit -m "Update dashboard data" || echo "No changes"
           git push
 
-  deploy-to-pages:
-    needs: fetch-github-contributions
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      - name: Setup GitHub Pages
+        uses: actions/configure-pages@v5
 
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Setup Pages
-        uses: actions/configure-pages@v4
-
-      - name: Upload artifact
+      - name: Upload site artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: '.'
+          path: "."
 
       - name: Deploy to GitHub Pages
         id: deployment
