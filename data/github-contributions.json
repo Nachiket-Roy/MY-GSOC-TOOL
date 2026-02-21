@@ -1,11 +1,17 @@
 {
   "stats": {
-    "commits": 474,
-    "pullRequests": 41,
-    "issues": 39,
+    "commits": 516,
+    "pullRequests": 43,
+    "issues": 40,
     "reviews": 59
   },
   "contributions": [
+    {
+      "title": "sorting fixed",
+      "description": "Pull Request #190 in OWASP-BLT/BLT-Leaf",
+      "date": "2026-02-20T12:21:06Z",
+      "url": "https://github.com/OWASP-BLT/BLT-Leaf/pull/190"
+    },
     {
       "title": "Persistent Timeline Caching",
       "description": "Pull Request #177 in OWASP-BLT/BLT-Leaf",
@@ -47,12 +53,6 @@
       "description": "Pull Request #6 in OWASP-BLT/BLT-Panini",
       "date": "2026-02-12T07:06:10Z",
       "url": "https://github.com/OWASP-BLT/BLT-Panini/pull/6"
-    },
-    {
-      "title": "Fix Broken Setup, Clean D1 Integration & Make Basic UI Functional",
-      "description": "Pull Request #5 in OWASP-BLT/BLT-Leaf",
-      "date": "2026-02-10T15:14:23Z",
-      "url": "https://github.com/OWASP-BLT/BLT-Leaf/pull/5"
     },
     {
       "title": "Remove Banned Apps from BLT and redirect to standalone Panini webpage",
@@ -109,5 +109,5 @@
       "url": "https://github.com/OWASP-BLT/BLT-Action/pull/83"
     }
   ],
-  "lastUpdated": "2026-02-20T02:37:19.024Z"
+  "lastUpdated": "2026-02-21T02:30:57.581Z"
 }
