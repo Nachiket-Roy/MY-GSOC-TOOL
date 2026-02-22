@@ -1,11 +1,17 @@
 {
   "stats": {
-    "commits": 516,
-    "pullRequests": 43,
-    "issues": 40,
+    "commits": 518,
+    "pullRequests": 44,
+    "issues": 41,
     "reviews": 59
   },
   "contributions": [
+    {
+      "title": "fix : showerror is not define",
+      "description": "Pull Request #199 in OWASP-BLT/BLT-Leaf",
+      "date": "2026-02-21T10:38:03Z",
+      "url": "https://github.com/OWASP-BLT/BLT-Leaf/pull/199"
+    },
     {
       "title": "sorting fixed",
       "description": "Pull Request #190 in OWASP-BLT/BLT-Leaf",
@@ -41,12 +47,6 @@
       "description": "Pull Request #85 in OWASP-BLT/BLT-Leaf",
       "date": "2026-02-15T21:55:53Z",
       "url": "https://github.com/OWASP-BLT/BLT-Leaf/pull/85"
-    },
-    {
-      "title": "ReferenceError resolved and added Favicon",
-      "description": "Pull Request #54 in OWASP-BLT/BLT-Leaf",
-      "date": "2026-02-14T16:44:12Z",
-      "url": "https://github.com/OWASP-BLT/BLT-Leaf/pull/54"
     },
     {
       "title": "Improve README and enhance page header with branding updates",
@@ -109,5 +109,5 @@
       "url": "https://github.com/OWASP-BLT/BLT-Action/pull/83"
     }
   ],
-  "lastUpdated": "2026-02-21T02:30:57.581Z"
+  "lastUpdated": "2026-02-22T02:43:26.133Z"
 }
