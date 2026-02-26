@@ -1,10 +1,119 @@
 {
   "stats": {
-    "commits": 0,
-    "pullRequests": 0,
-    "issues": 0,
-    "reviews": 0
+    "commits": 524,
+    "pullRequests": 45,
+    "issues": 44,
+    "reviews": 61
   },
-  "contributions": [],
-  "lastUpdated": "2026-02-26T21:20:48.214Z"
+  "contributions": [
+    {
+      "title": "fix : showerror is not define",
+      "description": "Pull Request #199 in OWASP-BLT/BLT-Leaf",
+      "date": "2026-02-21T10:38:03Z",
+      "url": "https://github.com/OWASP-BLT/BLT-Leaf/pull/199"
+    },
+    {
+      "title": "Add Dark Mode Support and Modernize UI Across Pages",
+      "description": "Pull Request #8 in OWASP-BLT/BLT-Next",
+      "date": "2026-02-20T20:02:53Z",
+      "url": "https://github.com/OWASP-BLT/BLT-Next/pull/8"
+    },
+    {
+      "title": "sorting fixed",
+      "description": "Pull Request #190 in OWASP-BLT/BLT-Leaf",
+      "date": "2026-02-20T12:21:06Z",
+      "url": "https://github.com/OWASP-BLT/BLT-Leaf/pull/190"
+    },
+    {
+      "title": "Refactor BLT-Next Architecture: Clean Static Frontend Layout, Worker Isolation & D1 Schema Integration",
+      "description": "Pull Request #6 in OWASP-BLT/BLT-Next",
+      "date": "2026-02-19T16:49:01Z",
+      "url": "https://github.com/OWASP-BLT/BLT-Next/pull/6"
+    },
+    {
+      "title": "Persistent Timeline Caching",
+      "description": "Pull Request #177 in OWASP-BLT/BLT-Leaf",
+      "date": "2026-02-19T07:20:27Z",
+      "url": "https://github.com/OWASP-BLT/BLT-Leaf/pull/177"
+    },
+    {
+      "title": " ETag-based conditional requests and computation fast-paths to optimize GitHub API usage and PR analysis performance.",
+      "description": "Pull Request #156 in OWASP-BLT/BLT-Leaf",
+      "date": "2026-02-18T20:19:19Z",
+      "url": "https://github.com/OWASP-BLT/BLT-Leaf/pull/156"
+    },
+    {
+      "title": "Fix: Flaky Docker Test",
+      "description": "Pull Request #5811 in OWASP-BLT/BLT",
+      "date": "2026-02-16T17:05:56Z",
+      "url": "https://github.com/OWASP-BLT/BLT/pull/5811"
+    },
+    {
+      "title": "Use CustomAccountAdapter to refine email verification behavior for social signups",
+      "description": "Pull Request #5750 in OWASP-BLT/BLT",
+      "date": "2026-02-16T10:17:41Z",
+      "url": "https://github.com/OWASP-BLT/BLT/pull/5750"
+    },
+    {
+      "title": "Add Draft PR handling (Draft = 0% Ready)",
+      "description": "Pull Request #85 in OWASP-BLT/BLT-Leaf",
+      "date": "2026-02-15T21:55:53Z",
+      "url": "https://github.com/OWASP-BLT/BLT-Leaf/pull/85"
+    },
+    {
+      "title": "Major frontend revamp: Tailwind CDN migration, cleanup, and new data structure",
+      "description": "Pull Request #17 in OWASP-BLT/MY-GSOC-TOOL",
+      "date": "2026-02-11T17:25:43Z",
+      "url": "https://github.com/OWASP-BLT/MY-GSOC-TOOL/pull/17"
+    },
+    {
+      "title": "Remove Banned Apps from BLT and redirect to standalone Panini webpage",
+      "description": "Pull Request #5628 in OWASP-BLT/BLT",
+      "date": "2026-02-09T20:13:06Z",
+      "url": "https://github.com/OWASP-BLT/BLT/pull/5628"
+    },
+    {
+      "title": "Add lazy-loading to high-impact templates",
+      "description": "Pull Request #5626 in OWASP-BLT/BLT",
+      "date": "2026-02-09T16:12:08Z",
+      "url": "https://github.com/OWASP-BLT/BLT/pull/5626"
+    },
+    {
+      "title": "Enable WhiteNoise Compression for Optimized Static File Delivery",
+      "description": "Pull Request #5623 in OWASP-BLT/BLT",
+      "date": "2026-02-09T12:37:24Z",
+      "url": "https://github.com/OWASP-BLT/BLT/pull/5623"
+    },
+    {
+      "title": "Project S and T",
+      "description": "Pull Request #33 in OWASP-BLT/BLT-Ideas",
+      "date": "2026-02-04T13:21:19Z",
+      "url": "https://github.com/OWASP-BLT/BLT-Ideas/pull/33"
+    },
+    {
+      "title": "project-R",
+      "description": "Pull Request #32 in OWASP-BLT/BLT-Ideas",
+      "date": "2026-02-04T13:10:10Z",
+      "url": "https://github.com/OWASP-BLT/BLT-Ideas/pull/32"
+    },
+    {
+      "title": "prevent assigning issues that already have an open pr linked",
+      "description": "Pull Request #102 in OWASP-BLT/BLT-Action",
+      "date": "2026-01-09T10:50:33Z",
+      "url": "https://github.com/OWASP-BLT/BLT-Action/pull/102"
+    },
+    {
+      "title": "Added gitignore",
+      "description": "Pull Request #85 in OWASP-BLT/BLT-Action",
+      "date": "2025-11-16T12:35:56Z",
+      "url": "https://github.com/OWASP-BLT/BLT-Action/pull/85"
+    },
+    {
+      "title": "single assign logic included",
+      "description": "Pull Request #83 in OWASP-BLT/BLT-Action",
+      "date": "2025-11-16T12:21:24Z",
+      "url": "https://github.com/OWASP-BLT/BLT-Action/pull/83"
+    }
+  ],
+  "lastUpdated": "2026-02-26T21:24:58.838Z"
 }
