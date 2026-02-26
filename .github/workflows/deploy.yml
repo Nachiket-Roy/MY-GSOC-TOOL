@@ -9,7 +9,7 @@ on:
       - main
 
 permissions:
-  contents: read
+  contents: read # updated
   pages: write
   id-token: write
 
