@@ -145,9 +145,9 @@ async function fetchData() {
         }
 
         console.log(`Processing ${repositories.length} repositories sequentially...`);
-        console.log("Adding a 2-second delay between repositories to avoid Search API rate limits (30 req/min).");
+        console.log("Using conservative delays: 1s between queries, 3s between repositories.");
         if (process.env.GITHUB_TOKEN) {
-            console.log("Using GITHUB_TOKEN for authentication.");
+            console.log("Using PAT_TOKEN for authenticated requests.");
         } else {
             console.log("No GITHUB_TOKEN found; using unauthenticated requests.");
         }
@@ -172,16 +172,19 @@ async function fetchData() {
                 const prQuery = `repo:${owner}/${repo} is:pr is:merged author:${username} created:>${dateStr}`;
                 const prRes = await makeRequest(`/search/issues?q=${encodeURIComponent(prQuery)}`);
                 const prCount = prRes.data?.total_count || 0;
+                await delay(1000); // 1-second delay between search queries
 
                 // Fetch Issues
                 const issueQuery = `repo:${owner}/${repo} is:issue author:${username} created:>${dateStr}`;
                 const issueRes = await makeRequest(`/search/issues?q=${encodeURIComponent(issueQuery)}`);
                 const issueCount = issueRes.data?.total_count || 0;
+                await delay(1000); // 1-second delay between search queries
 
                 // Fetch Reviews (Exclude own PRs)
                 const reviewQuery = `repo:${owner}/${repo} is:pr reviewed-by:${username} -author:${username} created:>${dateStr}`;
                 const reviewRes = await makeRequest(`/search/issues?q=${encodeURIComponent(reviewQuery)}`);
                 const reviewCount = reviewRes.data?.total_count || 0;
+                await delay(1000); // 1-second delay between search queries
 
                 // Fetch Commits - Use Link Header Strategy for Total Count
                 let commitCount = 0;
@@ -230,10 +233,11 @@ async function fetchData() {
                 console.error(`Error processing ${owner}/${repo}:`, error.message);
             }
 
-            // Wait 2 seconds before the next repository to stay within Search API limits (30 req/min)
-            // Each repo performs up to 4 Search API calls + 1 Repo API call.
-            // 2 seconds per repo * 44 repos = ~90 seconds total run time.
-            await delay(2000);
+            // Wait 3 seconds before the next repository to stay safely within Search API limits
+            // Each repo performs 3 Search API calls + 1 Repo API call.
+            // (1s * 3) + 3s = 6 seconds per repository.
+            // 6 seconds per repo * 44 repos = ~4.5 minutes total run time.
+            await delay(3000);
         }
 
         // Sort contributions by date desc and limit
