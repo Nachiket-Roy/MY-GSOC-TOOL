@@ -72,7 +72,7 @@ function makeRequest(path) {
 
         // Add Authorization header solely if token is present
         if (process.env.GITHUB_TOKEN) {
-            options.headers['Authorization'] = `token ${process.env.GITHUB_TOKEN}`;
+            options.headers['Authorization'] = `token ${process.env.GITHUB_TOKEN.trim()}`;
         }
 
         https.get(options, (res) => {
@@ -139,7 +139,12 @@ async function fetchData() {
             return;
         }
 
-        console.log(`Processing ${repositories.length} repositories...`);
+        console.log(`Processing ${repositories.length} repositories sequentially...`);
+        if (process.env.GITHUB_TOKEN) {
+            console.log("Using GITHUB_TOKEN for authentication.");
+        } else {
+            console.log("No GITHUB_TOKEN found; using unauthenticated requests.");
+        }
 
         const sixMonthsAgo = new Date();
         sixMonthsAgo.setMonth(sixMonthsAgo.getMonth() - 6);
@@ -148,10 +153,10 @@ async function fetchData() {
         let totalStats = { commits: 0, pullRequests: 0, issues: 0, reviews: 0 };
         let allContributions = [];
 
-        // Process all repositories in parallel
-        const promises = repositories.map(async (repoUrl) => {
+        // Process all repositories sequentially to avoid secondary rate limits
+        for (const repoUrl of repositories) {
             const repoDetails = getRepoDetails(repoUrl);
-            if (!repoDetails) return;
+            if (!repoDetails) continue;
 
             const { owner, repo } = repoDetails;
             console.log(`Fetching data for ${owner}/${repo}...`);
@@ -218,9 +223,7 @@ async function fetchData() {
             } catch (error) {
                 console.error(`Error processing ${owner}/${repo}:`, error.message);
             }
-        });
-
-        await Promise.all(promises);
+        }
 
         // Sort contributions by date desc and limit
         allContributions.sort((a, b) => b.timestamp - a.timestamp);
