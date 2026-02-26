@@ -42,6 +42,11 @@ const username = githubUrl.split('/').pop() || 'example-user';
 
 console.log(`Fetching data for user: ${username}`);
 
+// Helper to delay execution
+function delay(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+}
+
 // Helper to extract owner and repo from URL
 function getRepoDetails(url) {
     if (!url) return null;
@@ -140,6 +145,7 @@ async function fetchData() {
         }
 
         console.log(`Processing ${repositories.length} repositories sequentially...`);
+        console.log("Adding a 2-second delay between repositories to avoid Search API rate limits (30 req/min).");
         if (process.env.GITHUB_TOKEN) {
             console.log("Using GITHUB_TOKEN for authentication.");
         } else {
@@ -223,6 +229,11 @@ async function fetchData() {
             } catch (error) {
                 console.error(`Error processing ${owner}/${repo}:`, error.message);
             }
+
+            // Wait 2 seconds before the next repository to stay within Search API limits (30 req/min)
+            // Each repo performs up to 4 Search API calls + 1 Repo API call.
+            // 2 seconds per repo * 44 repos = ~90 seconds total run time.
+            await delay(2000);
         }
 
         // Sort contributions by date desc and limit
