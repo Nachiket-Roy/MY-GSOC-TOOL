@@ -1,11 +1,23 @@
 {
   "stats": {
-    "commits": 546,
-    "pullRequests": 54,
-    "issues": 48,
-    "reviews": 65
+    "commits": 579,
+    "pullRequests": 59,
+    "issues": 49,
+    "reviews": 66
   },
   "contributions": [
+    {
+      "title": "fix:  review leaderboard",
+      "description": "Pull Request #45 in OWASP-BLT/BLT-Hackathons",
+      "date": "2026-03-01T05:45:04Z",
+      "url": "https://github.com/OWASP-BLT/BLT-Hackathons/pull/45"
+    },
+    {
+      "title": "Parallel fetching",
+      "description": "Pull Request #44 in OWASP-BLT/BLT-Hackathons",
+      "date": "2026-02-28T17:04:10Z",
+      "url": "https://github.com/OWASP-BLT/BLT-Hackathons/pull/44"
+    },
     {
       "title": "Added Myself as Contributor + Restored Dark mode support",
       "description": "Pull Request #13 in OWASP-BLT/BLT-GSOC",
@@ -13,10 +25,22 @@
       "url": "https://github.com/OWASP-BLT/BLT-GSOC/pull/13"
     },
     {
+      "title": "Migration : Moving Sizzle code from BLT to BLT-Sizzle",
+      "description": "Pull Request #25 in OWASP-BLT/BLT-Sizzle",
+      "date": "2026-02-24T16:49:16Z",
+      "url": "https://github.com/OWASP-BLT/BLT-Sizzle/pull/25"
+    },
+    {
       "title": "Update page",
       "description": "Pull Request #4 in OWASP-BLT/BLT-GSOC",
       "date": "2026-02-23T19:17:14Z",
       "url": "https://github.com/OWASP-BLT/BLT-GSOC/pull/4"
+    },
+    {
+      "title": "feat: welcome email automation added",
+      "description": "Pull Request #6 in OWASP-BLT/BLT-Newsletter",
+      "date": "2026-02-23T11:11:37Z",
+      "url": "https://github.com/OWASP-BLT/BLT-Newsletter/pull/6"
     },
     {
       "title": "fix : showerror is not define",
@@ -101,31 +125,7 @@
       "description": "Pull Request #5623 in OWASP-BLT/BLT",
       "date": "2026-02-09T12:37:24Z",
       "url": "https://github.com/OWASP-BLT/BLT/pull/5623"
-    },
-    {
-      "title": "Extract Banned Apps Feature Into Standalone Static App",
-      "description": "Pull Request #3 in OWASP-BLT/BLT-Panini",
-      "date": "2026-02-09T09:31:17Z",
-      "url": "https://github.com/OWASP-BLT/BLT-Panini/pull/3"
-    },
-    {
-      "title": "Project S and T",
-      "description": "Pull Request #33 in OWASP-BLT/BLT-Ideas",
-      "date": "2026-02-04T13:21:19Z",
-      "url": "https://github.com/OWASP-BLT/BLT-Ideas/pull/33"
-    },
-    {
-      "title": "project-R",
-      "description": "Pull Request #32 in OWASP-BLT/BLT-Ideas",
-      "date": "2026-02-04T13:10:10Z",
-      "url": "https://github.com/OWASP-BLT/BLT-Ideas/pull/32"
-    },
-    {
-      "title": "prevent assigning issues that already have an open pr linked",
-      "description": "Pull Request #102 in OWASP-BLT/BLT-Action",
-      "date": "2026-01-09T10:50:33Z",
-      "url": "https://github.com/OWASP-BLT/BLT-Action/pull/102"
     }
   ],
-  "lastUpdated": "2026-03-01T02:55:37.828Z"
+  "lastUpdated": "2026-03-02T02:43:53.700Z"
 }
