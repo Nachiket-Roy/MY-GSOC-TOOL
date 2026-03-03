@@ -1,9 +1,9 @@
 {
   "stats": {
-    "commits": 579,
-    "pullRequests": 59,
+    "commits": 601,
+    "pullRequests": 61,
     "issues": 49,
-    "reviews": 66
+    "reviews": 70
   },
   "contributions": [
     {
@@ -25,6 +25,12 @@
       "url": "https://github.com/OWASP-BLT/BLT-GSOC/pull/13"
     },
     {
+      "title": "Move GSoC Page to Its Own Separate Web Page",
+      "description": "Pull Request #5914 in OWASP-BLT/BLT",
+      "date": "2026-02-26T20:19:26Z",
+      "url": "https://github.com/OWASP-BLT/BLT/pull/5914"
+    },
+    {
       "title": "Migration : Moving Sizzle code from BLT to BLT-Sizzle",
       "description": "Pull Request #25 in OWASP-BLT/BLT-Sizzle",
       "date": "2026-02-24T16:49:16Z",
@@ -41,6 +47,12 @@
       "description": "Pull Request #6 in OWASP-BLT/BLT-Newsletter",
       "date": "2026-02-23T11:11:37Z",
       "url": "https://github.com/OWASP-BLT/BLT-Newsletter/pull/6"
+    },
+    {
+      "title": "GitHub Pages to Cloudflare Workers Migration",
+      "description": "Pull Request #3 in OWASP-BLT/BLT-SafeCloak",
+      "date": "2026-02-22T20:53:58Z",
+      "url": "https://github.com/OWASP-BLT/BLT-SafeCloak/pull/3"
     },
     {
       "title": "fix : showerror is not define",
@@ -113,19 +125,7 @@
       "description": "Pull Request #5628 in OWASP-BLT/BLT",
       "date": "2026-02-09T20:13:06Z",
       "url": "https://github.com/OWASP-BLT/BLT/pull/5628"
-    },
-    {
-      "title": "Add lazy-loading to high-impact templates",
-      "description": "Pull Request #5626 in OWASP-BLT/BLT",
-      "date": "2026-02-09T16:12:08Z",
-      "url": "https://github.com/OWASP-BLT/BLT/pull/5626"
-    },
-    {
-      "title": "Enable WhiteNoise Compression for Optimized Static File Delivery",
-      "description": "Pull Request #5623 in OWASP-BLT/BLT",
-      "date": "2026-02-09T12:37:24Z",
-      "url": "https://github.com/OWASP-BLT/BLT/pull/5623"
     }
   ],
-  "lastUpdated": "2026-03-02T02:43:53.700Z"
+  "lastUpdated": "2026-03-03T02:46:18.686Z"
 }
