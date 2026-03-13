@@ -1,11 +1,17 @@
 {
   "stats": {
-    "commits": 640,
-    "pullRequests": 63,
+    "commits": 644,
+    "pullRequests": 64,
     "issues": 52,
-    "reviews": 89
+    "reviews": 90
   },
   "contributions": [
+    {
+      "title": "Reorganize ideas into large, medium, and small project groups",
+      "description": "Pull Request #65 in OWASP-BLT/BLT-Ideas",
+      "date": "2026-03-12T15:20:32Z",
+      "url": "https://github.com/OWASP-BLT/BLT-Ideas/pull/65"
+    },
     {
       "title": "Exclude Self-Reviews from reviewCount",
       "description": "Pull Request #54 in OWASP-BLT/BLT-Hackathons",
@@ -119,13 +125,7 @@
       "description": "Pull Request #6 in OWASP-BLT/BLT-Panini",
       "date": "2026-02-12T07:06:10Z",
       "url": "https://github.com/OWASP-BLT/BLT-Panini/pull/6"
-    },
-    {
-      "title": "Major frontend revamp: Tailwind CDN migration, cleanup, and new data structure",
-      "description": "Pull Request #17 in OWASP-BLT/MY-GSOC-TOOL",
-      "date": "2026-02-11T17:25:43Z",
-      "url": "https://github.com/OWASP-BLT/MY-GSOC-TOOL/pull/17"
     }
   ],
-  "lastUpdated": "2026-03-11T02:37:14.451Z"
+  "lastUpdated": "2026-03-13T02:40:54.730Z"
 }
