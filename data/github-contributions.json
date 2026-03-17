@@ -1,11 +1,17 @@
 {
   "stats": {
-    "commits": 644,
-    "pullRequests": 64,
+    "commits": 647,
+    "pullRequests": 65,
     "issues": 52,
     "reviews": 97
   },
   "contributions": [
+    {
+      "title": "Separate mentors and contributors",
+      "description": "Pull Request #47 in OWASP-BLT/BLT-GSOC",
+      "date": "2026-03-13T10:30:44Z",
+      "url": "https://github.com/OWASP-BLT/BLT-GSOC/pull/47"
+    },
     {
       "title": "Reorganize ideas into large, medium, and small project groups",
       "description": "Pull Request #65 in OWASP-BLT/BLT-Ideas",
@@ -119,13 +125,7 @@
       "description": "Pull Request #85 in OWASP-BLT/BLT-Leaf",
       "date": "2026-02-15T21:55:53Z",
       "url": "https://github.com/OWASP-BLT/BLT-Leaf/pull/85"
-    },
-    {
-      "title": "Improve README and enhance page header with branding updates",
-      "description": "Pull Request #6 in OWASP-BLT/BLT-Panini",
-      "date": "2026-02-12T07:06:10Z",
-      "url": "https://github.com/OWASP-BLT/BLT-Panini/pull/6"
     }
   ],
-  "lastUpdated": "2026-03-16T03:00:18.262Z"
+  "lastUpdated": "2026-03-17T02:43:16.979Z"
 }
