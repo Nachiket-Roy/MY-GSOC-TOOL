@@ -2,7 +2,7 @@
   "stats": {
     "commits": 647,
     "pullRequests": 63,
-    "issues": 53,
+    "issues": 50,
     "reviews": 103
   },
   "contributions": [
@@ -127,5 +127,5 @@
       "url": "https://github.com/OWASP-BLT/MY-GSOC-TOOL/pull/17"
     }
   ],
-  "lastUpdated": "2026-03-29T03:01:57.625Z"
+  "lastUpdated": "2026-03-30T03:23:24.057Z"
 }
