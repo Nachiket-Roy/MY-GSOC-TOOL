@@ -1,11 +1,17 @@
 {
   "stats": {
-    "commits": 647,
-    "pullRequests": 62,
+    "commits": 653,
+    "pullRequests": 63,
     "issues": 50,
     "reviews": 111
   },
   "contributions": [
+    {
+      "title": "Delayed Media Permissions",
+      "description": "Pull Request #52 in OWASP-BLT/BLT-SafeCloak",
+      "date": "2026-04-02T16:57:40Z",
+      "url": "https://github.com/OWASP-BLT/BLT-SafeCloak/pull/52"
+    },
     {
       "title": "Separate mentors and contributors",
       "description": "Pull Request #47 in OWASP-BLT/BLT-GSOC",
@@ -119,13 +125,7 @@
       "description": "Pull Request #6 in OWASP-BLT/BLT-Panini",
       "date": "2026-02-12T07:06:10Z",
       "url": "https://github.com/OWASP-BLT/BLT-Panini/pull/6"
-    },
-    {
-      "title": "Major frontend revamp: Tailwind CDN migration, cleanup, and new data structure",
-      "description": "Pull Request #17 in OWASP-BLT/MY-GSOC-TOOL",
-      "date": "2026-02-11T17:25:43Z",
-      "url": "https://github.com/OWASP-BLT/MY-GSOC-TOOL/pull/17"
     }
   ],
-  "lastUpdated": "2026-04-17T03:27:32.226Z"
+  "lastUpdated": "2026-04-18T02:59:08.878Z"
 }
