@@ -1,9 +1,9 @@
 {
   "stats": {
     "commits": 653,
-    "pullRequests": 63,
+    "pullRequests": 53,
     "issues": 50,
-    "reviews": 111
+    "reviews": 103
   },
   "contributions": [
     {
@@ -97,12 +97,6 @@
       "url": "https://github.com/OWASP-BLT/BLT-Leaf/pull/177"
     },
     {
-      "title": " ETag-based conditional requests and computation fast-paths to optimize GitHub API usage and PR analysis performance.",
-      "description": "Pull Request #156 in OWASP-BLT/BLT-Leaf",
-      "date": "2026-02-18T20:19:19Z",
-      "url": "https://github.com/OWASP-BLT/BLT-Leaf/pull/156"
-    },
-    {
       "title": "Fix: Flaky Docker Test",
       "description": "Pull Request #5811 in OWASP-BLT/BLT",
       "date": "2026-02-16T17:05:56Z",
@@ -121,11 +115,17 @@
       "url": "https://github.com/OWASP-BLT/BLT-Leaf/pull/85"
     },
     {
+      "title": "ReferenceError resolved and added Favicon",
+      "description": "Pull Request #54 in OWASP-BLT/BLT-Leaf",
+      "date": "2026-02-14T16:44:12Z",
+      "url": "https://github.com/OWASP-BLT/BLT-Leaf/pull/54"
+    },
+    {
       "title": "Improve README and enhance page header with branding updates",
       "description": "Pull Request #6 in OWASP-BLT/BLT-Panini",
       "date": "2026-02-12T07:06:10Z",
       "url": "https://github.com/OWASP-BLT/BLT-Panini/pull/6"
     }
   ],
-  "lastUpdated": "2026-04-27T03:43:48.154Z"
+  "lastUpdated": "2026-04-28T03:48:18.719Z"
 }
