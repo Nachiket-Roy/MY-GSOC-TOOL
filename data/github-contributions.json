@@ -1,11 +1,17 @@
 {
   "stats": {
-    "commits": 651,
-    "pullRequests": 62,
-    "issues": 47,
-    "reviews": 110
+    "commits": 652,
+    "pullRequests": 65,
+    "issues": 50,
+    "reviews": 128
   },
   "contributions": [
+    {
+      "title": "Update BLT-MCP project description and technologies",
+      "description": "Pull Request #72 in OWASP-BLT/BLT-GSOC",
+      "date": "2026-05-13T16:58:17Z",
+      "url": "https://github.com/OWASP-BLT/BLT-GSOC/pull/72"
+    },
     {
       "title": "Delayed Media Permissions",
       "description": "Pull Request #52 in OWASP-BLT/BLT-SafeCloak",
@@ -85,10 +91,22 @@
       "url": "https://github.com/OWASP-BLT/BLT-Leaf/pull/199"
     },
     {
+      "title": "Add Dark Mode Support and Modernize UI Across Pages",
+      "description": "Pull Request #8 in OWASP-BLT/BLT-Next",
+      "date": "2026-02-20T20:02:53Z",
+      "url": "https://github.com/OWASP-BLT/BLT-Next/pull/8"
+    },
+    {
       "title": "sorting fixed",
       "description": "Pull Request #190 in OWASP-BLT/BLT-Leaf",
       "date": "2026-02-20T12:21:06Z",
       "url": "https://github.com/OWASP-BLT/BLT-Leaf/pull/190"
+    },
+    {
+      "title": "Refactor BLT-Next Architecture: Clean Static Frontend Layout, Worker Isolation & D1 Schema Integration",
+      "description": "Pull Request #6 in OWASP-BLT/BLT-Next",
+      "date": "2026-02-19T16:49:01Z",
+      "url": "https://github.com/OWASP-BLT/BLT-Next/pull/6"
     },
     {
       "title": "Persistent Timeline Caching",
@@ -107,25 +125,7 @@
       "description": "Pull Request #5811 in OWASP-BLT/BLT",
       "date": "2026-02-16T17:05:56Z",
       "url": "https://github.com/OWASP-BLT/BLT/pull/5811"
-    },
-    {
-      "title": "Use CustomAccountAdapter to refine email verification behavior for social signups",
-      "description": "Pull Request #5750 in OWASP-BLT/BLT",
-      "date": "2026-02-16T10:17:41Z",
-      "url": "https://github.com/OWASP-BLT/BLT/pull/5750"
-    },
-    {
-      "title": "Add Draft PR handling (Draft = 0% Ready)",
-      "description": "Pull Request #85 in OWASP-BLT/BLT-Leaf",
-      "date": "2026-02-15T21:55:53Z",
-      "url": "https://github.com/OWASP-BLT/BLT-Leaf/pull/85"
-    },
-    {
-      "title": "Improve README and enhance page header with branding updates",
-      "description": "Pull Request #6 in OWASP-BLT/BLT-Panini",
-      "date": "2026-02-12T07:06:10Z",
-      "url": "https://github.com/OWASP-BLT/BLT-Panini/pull/6"
     }
   ],
-  "lastUpdated": "2026-05-13T03:59:38.185Z"
+  "lastUpdated": "2026-05-14T03:59:10.884Z"
 }
