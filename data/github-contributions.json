@@ -1,11 +1,17 @@
 {
   "stats": {
-    "commits": 652,
-    "pullRequests": 65,
-    "issues": 51,
+    "commits": 656,
+    "pullRequests": 64,
+    "issues": 50,
     "reviews": 128
   },
   "contributions": [
+    {
+      "title": "Refactor: Migrates BLT-MCP from the TypeScript MCP SDK to the Python MCP ecosystem",
+      "description": "Pull Request #37 in OWASP-BLT/BLT-MCP",
+      "date": "2026-05-13T18:32:53Z",
+      "url": "https://github.com/OWASP-BLT/BLT-MCP/pull/37"
+    },
     {
       "title": "Update BLT-MCP project description and technologies",
       "description": "Pull Request #72 in OWASP-BLT/BLT-GSOC",
@@ -119,13 +125,7 @@
       "description": "Pull Request #156 in OWASP-BLT/BLT-Leaf",
       "date": "2026-02-18T20:19:19Z",
       "url": "https://github.com/OWASP-BLT/BLT-Leaf/pull/156"
-    },
-    {
-      "title": "Fix: Flaky Docker Test",
-      "description": "Pull Request #5811 in OWASP-BLT/BLT",
-      "date": "2026-02-16T17:05:56Z",
-      "url": "https://github.com/OWASP-BLT/BLT/pull/5811"
     }
   ],
-  "lastUpdated": "2026-05-15T04:02:57.675Z"
+  "lastUpdated": "2026-05-16T03:44:12.198Z"
 }
