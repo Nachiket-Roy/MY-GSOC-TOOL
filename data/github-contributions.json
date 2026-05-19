@@ -2,7 +2,7 @@
   "stats": {
     "commits": 620,
     "pullRequests": 64,
-    "issues": 48,
+    "issues": 47,
     "reviews": 128
   },
   "contributions": [
@@ -127,5 +127,5 @@
       "url": "https://github.com/OWASP-BLT/BLT-Leaf/pull/156"
     }
   ],
-  "lastUpdated": "2026-05-18T04:16:38.846Z"
+  "lastUpdated": "2026-05-19T04:10:05.997Z"
 }
