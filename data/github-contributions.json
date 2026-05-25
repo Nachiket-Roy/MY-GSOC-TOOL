@@ -1,11 +1,17 @@
 {
   "stats": {
-    "commits": 601,
-    "pullRequests": 59,
+    "commits": 603,
+    "pullRequests": 58,
     "issues": 41,
     "reviews": 125
   },
   "contributions": [
+    {
+      "title": "Add stdio transport integration tests and GitHub Actions test workflow",
+      "description": "Pull Request #41 in OWASP-BLT/BLT-MCP",
+      "date": "2026-05-15T18:30:21Z",
+      "url": "https://github.com/OWASP-BLT/BLT-MCP/pull/41"
+    },
     {
       "title": "Refactor: Migrates BLT-MCP from the TypeScript MCP SDK to the Python MCP ecosystem",
       "description": "Pull Request #37 in OWASP-BLT/BLT-MCP",
@@ -119,13 +125,7 @@
       "description": "Pull Request #177 in OWASP-BLT/BLT-Leaf",
       "date": "2026-02-19T07:20:27Z",
       "url": "https://github.com/OWASP-BLT/BLT-Leaf/pull/177"
-    },
-    {
-      "title": " ETag-based conditional requests and computation fast-paths to optimize GitHub API usage and PR analysis performance.",
-      "description": "Pull Request #156 in OWASP-BLT/BLT-Leaf",
-      "date": "2026-02-18T20:19:19Z",
-      "url": "https://github.com/OWASP-BLT/BLT-Leaf/pull/156"
     }
   ],
-  "lastUpdated": "2026-05-24T04:13:47.834Z"
+  "lastUpdated": "2026-05-25T04:25:12.186Z"
 }
